@@ -81,4 +81,4 @@ jobs:
       is_release_required: ${{ needs.check-component-for-changes.outputs.is_release_required }}
       release_result: ${{ needs.release-component.result }}
       version: ${{ needs.extract-version.outputs.version }}
-      channel_id: 'C019Q1F40SX'
+      channel_id: 'C06PLQQEZRA'
